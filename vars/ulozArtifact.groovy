@@ -1,3 +1,3 @@
 void call(Map config = [:]) {
-    echo "Pouzij archiveArtifacts k ulozeni artifactu"
+    archiveArtifacts artifacts: 'target/*.jar'
 }
