@@ -5,6 +5,6 @@ void call(Map config = [:]) {
         echo config.get("mvnVersion")
         echo config.get("mvnGoals")
         withMaven(jdk: config.get("jdkVersion"), maven: config.get("mvnVersion")) {
-          sh "mvn $config.get("mvnGoals")"
+          sh "mvn config.get("mvnGoals")"
         }
 }
