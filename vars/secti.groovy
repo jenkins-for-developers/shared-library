@@ -1,3 +1,3 @@
 void call(List<Integer> cislo) {
-    echo "Provede soucet vsech elementu v listu"
+    echo "Soucet vsech elementu v listu" + cislo.sum()
 }
