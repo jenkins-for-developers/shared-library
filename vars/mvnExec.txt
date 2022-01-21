@@ -1,1 +1,5 @@
 Toto je dokumentace k mvnExec.
+vstupni parametry:
+jdk.version - verze JDk
+mvn.version - verze Mavenu
+mvn.goals - Maven goals
